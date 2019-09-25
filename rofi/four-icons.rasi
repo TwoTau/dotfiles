@@ -1,0 +1,33 @@
+* {
+    background-color: #1F1F21;
+    border-color: rgba(0,200,0,0);
+    text-color: #fff;
+    font: "Fura Code Nerd Font 50";
+}
+
+#window {
+    width: 821px;
+    location: center;
+    anchor:   center;
+    position: center;
+    orientation: horizontal;
+    children: [ listview ];
+}
+
+#listview {
+    width: 100%;
+    position: center;
+    layout: horizontal;
+    spacing: 40px;
+    lines: 100;
+}
+
+#element {
+    padding: 40px 60px;
+}
+
+#element selected {
+    text-color: #e64944;
+}
+
+/* vim:ft=css

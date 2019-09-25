@@ -1,0 +1,6 @@
+bindkey '^[[1;5C' forward-word # Ctrl+Right
+bindkey '^[[1;5D' backward-word # Ctrl+Left
+bindkey '^H' backward-delete-word # Ctrl+Backspace
+bindkey '^[[3;5~' delete-word # Ctrl+Delete
+bindkey '^[[H' beginning-of-line # Home
+bindkey '^[[F' end-of-line # End

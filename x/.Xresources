@@ -1,0 +1,5 @@
+
+#define DOTDIR ~/dotfiles
+*dotdir: DOTDIR
+
+i3wm.rofi_config: DOTDIR/rofi/rofi.conf

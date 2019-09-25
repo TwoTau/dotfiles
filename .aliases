@@ -1,0 +1,19 @@
+alias l='ls -AF --color=auto --group-directories-first'
+alias lcn='l --color=none'
+alias t="tree -aC -I '.git|.idea|build|node_modules' -L"
+alias grep='grep --color=auto'
+
+alias ..='cd ..'
+
+alias venv='source ~/venv/bin/activate'
+
+alias cpu='mpstat'
+alias icat='kitty +kitten icat'
+alias copy='kitty +kitten clipboard'
+
+alias mount-windows='sudo ntfs-3g -o windows_names /dev/nvme0n1p3 /mnt/windows'
+alias undervolt='sudo intel-undervolt apply'
+alias ooo='sudo intel-undervolt apply && startx'
+alias cdq='cd /mnt/quantum && l --color=none'
+
+alias sshattu='ssh vishald@attu.cs.washington.edu'
